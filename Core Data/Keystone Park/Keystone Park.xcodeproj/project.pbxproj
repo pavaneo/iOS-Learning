@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCCC1732A9B2C8000E3350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */; };
+		FCCCC1752A9B2C8000E3350E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */; };
+		FCCCC1772A9B2C8000E3350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1762A9B2C8000E3350E /* ViewController.swift */; };
+		FCCCC17A2A9B2C8000E3350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC1782A9B2C8000E3350E /* Main.storyboard */; };
+		FCCCC17D2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC17B2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld */; };
+		FCCCC17F2A9B2C8200E3350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */; };
+		FCCCC1822A9B2C8200E3350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */; };
+		FCCCC18E2A9B2F2000E3350E /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC18A2A9B2F2000E3350E /* Student+CoreDataClass.swift */; };
+		FCCCC18F2A9B2F2000E3350E /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC18B2A9B2F2000E3350E /* Student+CoreDataProperties.swift */; };
+		FCCCC1902A9B2F2000E3350E /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC18C2A9B2F2000E3350E /* Lesson+CoreDataClass.swift */; };
+		FCCCC1912A9B2F2000E3350E /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC18D2A9B2F2000E3350E /* Lesson+CoreDataProperties.swift */; };
+		FCCCC1932A9B321900E3350E /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */; };
+		FCCCC1972A9B365900E3350E /* LessonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1962A9B365900E3350E /* LessonService.swift */; };
+		FCEA89F32AA2036F001C4108 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA89F22AA2036F001C4108 /* LessonViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCCCC16F2A9B2C8000E3350E /* Keystone Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keystone Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCCCC1762A9B2C8000E3350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCCCC1792A9B2C8000E3350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCCC17C2A9B2C8000E3350E /* Keystone_Park.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Keystone_Park.xcdatamodel; sourceTree = "<group>"; };
+		FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCCC1812A9B2C8200E3350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCCC1832A9B2C8200E3350E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCCC18A2A9B2F2000E3350E /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FCCCC18B2A9B2F2000E3350E /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FCCCC18C2A9B2F2000E3350E /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FCCCC18D2A9B2F2000E3350E /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
+		FCCCC1962A9B365900E3350E /* LessonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonService.swift; sourceTree = "<group>"; };
+		FCEA89F22AA2036F001C4108 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCCC16C2A9B2C8000E3350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCCC1662A9B2C8000E3350E = {
+			isa = PBXGroup;
+			children = (
+				FCCCC1712A9B2C8000E3350E /* Keystone Park */,
+				FCCCC1702A9B2C8000E3350E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCCC1702A9B2C8000E3350E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCCC16F2A9B2C8000E3350E /* Keystone Park.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCCC1712A9B2C8000E3350E /* Keystone Park */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA89F12AA20354001C4108 /* ViewModel */,
+				FCCCC1952A9B364700E3350E /* Service */,
+				FCCCC1942A9B322300E3350E /* Controller */,
+				FCCCC1892A9B2EF300E3350E /* Coredata */,
+				FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */,
+				FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */,
+				FCCCC1762A9B2C8000E3350E /* ViewController.swift */,
+				FCCCC1782A9B2C8000E3350E /* Main.storyboard */,
+				FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */,
+				FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */,
+				FCCCC1832A9B2C8200E3350E /* Info.plist */,
+			);
+			path = "Keystone Park";
+			sourceTree = "<group>";
+		};
+		FCCCC1892A9B2EF300E3350E /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				FCCCC17B2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld */,
+				FCCCC18A2A9B2F2000E3350E /* Student+CoreDataClass.swift */,
+				FCCCC18B2A9B2F2000E3350E /* Student+CoreDataProperties.swift */,
+				FCCCC18C2A9B2F2000E3350E /* Lesson+CoreDataClass.swift */,
+				FCCCC18D2A9B2F2000E3350E /* Lesson+CoreDataProperties.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		FCCCC1942A9B322300E3350E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCCCC1952A9B364700E3350E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FCCCC1962A9B365900E3350E /* LessonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCEA89F12AA20354001C4108 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA89F22AA2036F001C4108 /* LessonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCCC16E2A9B2C8000E3350E /* Keystone Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCCC1862A9B2C8200E3350E /* Build configuration list for PBXNativeTarget "Keystone Park" */;
+			buildPhases = (
+				FCCCC16B2A9B2C8000E3350E /* Sources */,
+				FCCCC16C2A9B2C8000E3350E /* Frameworks */,
+				FCCCC16D2A9B2C8000E3350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keystone Park";
+			productName = "Keystone Park";
+			productReference = FCCCC16F2A9B2C8000E3350E /* Keystone Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCCC1672A9B2C8000E3350E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FCCCC16E2A9B2C8000E3350E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FCCCC16A2A9B2C8000E3350E /* Build configuration list for PBXProject "Keystone Park" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCCC1662A9B2C8000E3350E;
+			productRefGroup = FCCCC1702A9B2C8000E3350E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCCC16E2A9B2C8000E3350E /* Keystone Park */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCCC16D2A9B2C8000E3350E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCCC1822A9B2C8200E3350E /* LaunchScreen.storyboard in Resources */,
+				FCCCC17F2A9B2C8200E3350E /* Assets.xcassets in Resources */,
+				FCCCC17A2A9B2C8000E3350E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCCC16B2A9B2C8000E3350E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCCC18F2A9B2F2000E3350E /* Student+CoreDataProperties.swift in Sources */,
+				FCCCC1912A9B2F2000E3350E /* Lesson+CoreDataProperties.swift in Sources */,
+				FCCCC1932A9B321900E3350E /* LessonTableViewController.swift in Sources */,
+				FCCCC1772A9B2C8000E3350E /* ViewController.swift in Sources */,
+				FCCCC1902A9B2F2000E3350E /* Lesson+CoreDataClass.swift in Sources */,
+				FCCCC1972A9B365900E3350E /* LessonService.swift in Sources */,
+				FCCCC17D2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld in Sources */,
+				FCCCC1732A9B2C8000E3350E /* AppDelegate.swift in Sources */,
+				FCCCC1752A9B2C8000E3350E /* SceneDelegate.swift in Sources */,
+				FCEA89F32AA2036F001C4108 /* LessonViewModel.swift in Sources */,
+				FCCCC18E2A9B2F2000E3350E /* Student+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCCCC1782A9B2C8000E3350E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCCC1792A9B2C8000E3350E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCCC1812A9B2C8200E3350E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCCC1842A9B2C8200E3350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCCC1852A9B2C8200E3350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCCC1872A9B2C8200E3350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG82N7RN8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Keystone Park/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peo.memo.widgets.Keystone-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCCC1882A9B2C8200E3350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG82N7RN8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Keystone Park/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peo.memo.widgets.Keystone-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCCC16A2A9B2C8000E3350E /* Build configuration list for PBXProject "Keystone Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCCC1842A9B2C8200E3350E /* Debug */,
+				FCCCC1852A9B2C8200E3350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCCC1862A9B2C8200E3350E /* Build configuration list for PBXNativeTarget "Keystone Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCCC1872A9B2C8200E3350E /* Debug */,
+				FCCCC1882A9B2C8200E3350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCCCC17B2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCCCC17C2A9B2C8000E3350E /* Keystone_Park.xcdatamodel */,
+			);
+			currentVersion = FCCCC17C2A9B2C8000E3350E /* Keystone_Park.xcdatamodel */;
+			path = Keystone_Park.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCCCC1672A9B2C8000E3350E /* Project object */;
+}
