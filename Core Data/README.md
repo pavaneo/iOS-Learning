@@ -1,6 +1,6 @@
 # iOS-Learning
 
-##Core Data:
+## Core Data:
 
 Core Data is an object graph and persistence framework provided by Apple in the macOS and 
 iOS operating systems. It was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 
@@ -8,16 +8,16 @@ iOS operating systems. It was introduced in Mac OS X 10.4 Tiger and iOS with iPh
 into XML, binary, or SQLite stores.
 
 
-##NSManagedObject:
+## NSManagedObject:
 
-##NSManagedObjectContext:
+## NSManagedObjectContext:
 
-##Attribute:
+## Attribute:
 
-##Entity:
+## Entity:
 
 
-##Delete Rules:
+## Delete Rules:
 
 - Nullify
 - Cascade
