@@ -10,7 +10,6 @@
 		FCCCC1732A9B2C8000E3350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */; };
 		FCCCC1752A9B2C8000E3350E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */; };
 		FCCCC1772A9B2C8000E3350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1762A9B2C8000E3350E /* ViewController.swift */; };
-		FCCCC17A2A9B2C8000E3350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC1782A9B2C8000E3350E /* Main.storyboard */; };
 		FCCCC17D2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC17B2A9B2C8000E3350E /* Keystone_Park.xcdatamodeld */; };
 		FCCCC17F2A9B2C8200E3350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */; };
 		FCCCC1822A9B2C8200E3350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */; };
@@ -21,6 +20,8 @@
 		FCCCC1932A9B321900E3350E /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */; };
 		FCCCC1972A9B365900E3350E /* LessonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCC1962A9B365900E3350E /* LessonService.swift */; };
 		FCEA89F32AA2036F001C4108 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA89F22AA2036F001C4108 /* LessonViewModel.swift */; };
+		FCEA89F52AA42D46001C4108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEA89F42AA42D46001C4108 /* Main.storyboard */; };
+		FCEA89F72AA42D90001C4108 /* LessonDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA89F62AA42D90001C4108 /* LessonDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,6 @@
 		FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCCCC1762A9B2C8000E3350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCCCC1792A9B2C8000E3350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCCCC17C2A9B2C8000E3350E /* Keystone_Park.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Keystone_Park.xcdatamodel; sourceTree = "<group>"; };
 		FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCCC1812A9B2C8200E3350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
 		FCCCC1962A9B365900E3350E /* LessonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonService.swift; sourceTree = "<group>"; };
 		FCEA89F22AA2036F001C4108 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
+		FCEA89F42AA42D46001C4108 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FCEA89F62AA42D90001C4108 /* LessonDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		FCCCC1712A9B2C8000E3350E /* Keystone Park */ = {
 			isa = PBXGroup;
 			children = (
+				FCEA89F42AA42D46001C4108 /* Main.storyboard */,
 				FCEA89F12AA20354001C4108 /* ViewModel */,
 				FCCCC1952A9B364700E3350E /* Service */,
 				FCCCC1942A9B322300E3350E /* Controller */,
@@ -79,7 +82,6 @@
 				FCCCC1722A9B2C8000E3350E /* AppDelegate.swift */,
 				FCCCC1742A9B2C8000E3350E /* SceneDelegate.swift */,
 				FCCCC1762A9B2C8000E3350E /* ViewController.swift */,
-				FCCCC1782A9B2C8000E3350E /* Main.storyboard */,
 				FCCCC17E2A9B2C8200E3350E /* Assets.xcassets */,
 				FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */,
 				FCCCC1832A9B2C8200E3350E /* Info.plist */,
@@ -102,6 +104,7 @@
 		FCCCC1942A9B322300E3350E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCEA89F62AA42D90001C4108 /* LessonDetailTableViewController.swift */,
 				FCCCC1922A9B321900E3350E /* LessonTableViewController.swift */,
 			);
 			path = Controller;
@@ -181,9 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEA89F52AA42D46001C4108 /* Main.storyboard in Resources */,
 				FCCCC1822A9B2C8200E3350E /* LaunchScreen.storyboard in Resources */,
 				FCCCC17F2A9B2C8200E3350E /* Assets.xcassets in Resources */,
-				FCCCC17A2A9B2C8000E3350E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +199,7 @@
 			files = (
 				FCCCC18F2A9B2F2000E3350E /* Student+CoreDataProperties.swift in Sources */,
 				FCCCC1912A9B2F2000E3350E /* Lesson+CoreDataProperties.swift in Sources */,
+				FCEA89F72AA42D90001C4108 /* LessonDetailTableViewController.swift in Sources */,
 				FCCCC1932A9B321900E3350E /* LessonTableViewController.swift in Sources */,
 				FCCCC1772A9B2C8000E3350E /* ViewController.swift in Sources */,
 				FCCCC1902A9B2F2000E3350E /* Lesson+CoreDataClass.swift in Sources */,
@@ -211,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCCCC1782A9B2C8000E3350E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCCCC1792A9B2C8000E3350E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCCCC1802A9B2C8200E3350E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

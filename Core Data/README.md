@@ -51,12 +51,26 @@ class. The entity description is accessible through the entity property.
 ## Delete Rules:
 
 - Nullify
+  
+  If the delete rule is set to Nullify to the relationship then the destination of the 
+  relationship gets nullify(NULL). In our case, If the department has many employees and 
+  department is deleted, the relationship between department and employee gets nullify.
+  
 - Cascade
+
+This delete rule is important and makes sure for all possible scenarios while setting this 
+rule to the realtionship. This rule is mostly used when data model has more dependency. 
+Means in our case, If department has many employees and if department is deleted, 
+automatically all employee belonging to that department are deleted.
+ 
 - Deny
+
+This rule is powerful and simply opposite to the cascade rule. Instead of deletion of all 
+your records in cascade rule, it prevents the deletion of records.
+
 - No Action
 
+If the delete rule is set to No Action to the relationship then nothing happens. Let's take 
+an example, If department has many employees, If the department is deleted, Nothing happens 
+to an employee. Employee assumes that its still asscoiated with deleted deparment.
 
-The default for entity relationships deletion rule is None.  It may or may not what you
-want depending on how you want the app to behave.  A deeper understanding on how these
-rules work may help you implement the correct behavior of your app and in some cases
-simplify the removal process of a record.

@@ -28,6 +28,8 @@ class LessonTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadStudents()
+        let paths = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)
+        print("Core Data Path: \(paths[0])")
     }
 
     // MARK: - Table view data source
@@ -121,6 +123,13 @@ extension LessonTableViewController {
         if let students = lessonService?.getAllStudents() {
             studentList = students
             tableView.reloadData()
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueLesson" {
+            let destination = segue.destination as! LessonDetailTableViewController
+            destination.moc = moc
         }
     }
 }

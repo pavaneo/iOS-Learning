@@ -52,6 +52,24 @@ class LessonService {
         return nil
     }
     
+    func getAvailableLesson() -> [Lesson]? {
+        let sortByLesson = NSSortDescriptor(key: "type", ascending: true)
+        let request: NSFetchRequest<Lesson> = Lesson.fetchRequest()
+        request.sortDescriptors = [sortByLesson]
+        do {
+            return try moc.fetch(request)
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        return nil
+    }
+    
+    
+    func deleteLesson(lesson: Lesson, deleteHandler: @escaping (Bool) -> Void) {
+        moc.delete(lesson)
+        save(completion: deleteHandler)
+    }
+    
     // UPDATE
     func update(currentStudent student: Student, withName name: String, forLesson lession: String) {
         //check if student current lesson == new lesson type
@@ -106,11 +124,21 @@ class LessonService {
         student.lesson = lesson
     }
     
-    private func save() {
+    private func save(completion: ((Bool) -> Void)? = nil) {
+        let success: Bool
+        
         do {
             try moc.save()
-        } catch let error {
-            print(error.localizedDescription)
+            success = true
+        }
+        catch let error as NSError {
+            print("Save failed: \(error.localizedDescription)")
+            moc.rollback()
+            success = false
+        }
+        
+        if let completion = completion {
+            completion(success)
         }
     }
 }
