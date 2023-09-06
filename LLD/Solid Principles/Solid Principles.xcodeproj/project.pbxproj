@@ -13,10 +13,10 @@
 		FC233BCF2AA8AC9800E5CBF2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BCE2AA8AC9800E5CBF2 /* CoreDataManager.swift */; };
 		FC233BD72AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BD62AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift */; };
 		FC233BDF2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC233BDD2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld */; };
-		FC233BE42AA8AF6700E5CBF2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */; };
-		FC233BE52AA8AF6700E5CBF2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */; };
-		FC233BE62AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */; };
-		FC233BE72AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */; };
+		FC233BEC2AA8B0BA00E5CBF2 /* Comment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE82AA8B0BA00E5CBF2 /* Comment+CoreDataClass.swift */; };
+		FC233BED2AA8B0BA00E5CBF2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE92AA8B0BA00E5CBF2 /* User+CoreDataProperties.swift */; };
+		FC233BEE2AA8B0BA00E5CBF2 /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BEA2AA8B0BA00E5CBF2 /* Comment+CoreDataProperties.swift */; };
+		FC233BEF2AA8B0BA00E5CBF2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BEB2AA8B0BA00E5CBF2 /* User+CoreDataClass.swift */; };
 		FCEA8A052AA4415C001C4108 /* Solid_PrinciplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A042AA4415C001C4108 /* Solid_PrinciplesApp.swift */; };
 		FCEA8A072AA4415C001C4108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A062AA4415C001C4108 /* ContentView.swift */; };
 		FCEA8A092AA4415D001C4108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8A082AA4415D001C4108 /* Assets.xcassets */; };
@@ -47,10 +47,10 @@
 		FC233BD42AA8ACC900E5CBF2 /* Solid PrinciplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solid PrinciplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC233BD62AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_PrinciplesTests.swift; sourceTree = "<group>"; };
 		FC233BDE2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolidPrinciples.xcdatamodel; sourceTree = "<group>"; };
-		FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FC233BE82AA8B0BA00E5CBF2 /* Comment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FC233BE92AA8B0BA00E5CBF2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC233BEA2AA8B0BA00E5CBF2 /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC233BEB2AA8B0BA00E5CBF2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FCEA8A012AA4415C001C4108 /* Solid Principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solid Principles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA8A042AA4415C001C4108 /* Solid_PrinciplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_PrinciplesApp.swift; sourceTree = "<group>"; };
 		FCEA8A062AA4415C001C4108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,10 +111,10 @@
 		FC233BCD2AA8AC7900E5CBF2 /* DatabaseManager */ = {
 			isa = PBXGroup;
 			children = (
-				FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */,
-				FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */,
-				FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */,
-				FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */,
+				FC233BE82AA8B0BA00E5CBF2 /* Comment+CoreDataClass.swift */,
+				FC233BEA2AA8B0BA00E5CBF2 /* Comment+CoreDataProperties.swift */,
+				FC233BEB2AA8B0BA00E5CBF2 /* User+CoreDataClass.swift */,
+				FC233BE92AA8B0BA00E5CBF2 /* User+CoreDataProperties.swift */,
 				FC233BCE2AA8AC9800E5CBF2 /* CoreDataManager.swift */,
 				FC233BDD2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld */,
 			);
@@ -367,13 +367,13 @@
 				FC233BCA2AA8331700E5CBF2 /* NetworkService.swift in Sources */,
 				FCEA8A142AA45AE3001C4108 /* ResponseViewModel.swift in Sources */,
 				FCEA8A072AA4415C001C4108 /* ContentView.swift in Sources */,
+				FC233BEE2AA8B0BA00E5CBF2 /* Comment+CoreDataProperties.swift in Sources */,
 				FCEA8A172AA45BDA001C4108 /* ResponseModel.swift in Sources */,
-				FC233BE72AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift in Sources */,
+				FC233BEC2AA8B0BA00E5CBF2 /* Comment+CoreDataClass.swift in Sources */,
 				FC233BDF2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld in Sources */,
-				FC233BE42AA8AF6700E5CBF2 /* User+CoreDataClass.swift in Sources */,
+				FC233BEF2AA8B0BA00E5CBF2 /* User+CoreDataClass.swift in Sources */,
 				FCEA8A052AA4415C001C4108 /* Solid_PrinciplesApp.swift in Sources */,
-				FC233BE52AA8AF6700E5CBF2 /* User+CoreDataProperties.swift in Sources */,
-				FC233BE62AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift in Sources */,
+				FC233BED2AA8B0BA00E5CBF2 /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
