@@ -11,7 +11,7 @@ import SwiftUI
 struct Solid_PrinciplesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ResponseViewModel())
         }
     }
 }

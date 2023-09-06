@@ -9,4 +9,4 @@ L - Liskov Substitution Principle - Subclass should be able to override the pare
 
 I - Interface Seggregation Principle - Should not force any client to implement interface which is irrelevent to them
 
-D - Dependency Inversion Principle - High level modules should not depend on lower level module 
+D - Dependency Inversion Principle - High level modules should not depend on lower level module, instead it should depend on the abstraction of that

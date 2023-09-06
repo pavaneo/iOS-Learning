@@ -7,36 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167E9D3B2F28EA08CF419275 /* Pods_Solid_Principles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097488E748495948EA17789 /* Pods_Solid_Principles.framework */; };
+		623A7ADDE8DB1164058BDB27 /* Pods_Solid_PrinciplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28541EDFC0A02673F5D2CE77 /* Pods_Solid_PrinciplesTests.framework */; };
+		FC233BCA2AA8331700E5CBF2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BC92AA8331700E5CBF2 /* NetworkService.swift */; };
+		FC233BCF2AA8AC9800E5CBF2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BCE2AA8AC9800E5CBF2 /* CoreDataManager.swift */; };
+		FC233BD72AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BD62AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift */; };
+		FC233BDF2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC233BDD2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld */; };
+		FC233BE42AA8AF6700E5CBF2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */; };
+		FC233BE52AA8AF6700E5CBF2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */; };
+		FC233BE62AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */; };
+		FC233BE72AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */; };
 		FCEA8A052AA4415C001C4108 /* Solid_PrinciplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A042AA4415C001C4108 /* Solid_PrinciplesApp.swift */; };
 		FCEA8A072AA4415C001C4108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A062AA4415C001C4108 /* ContentView.swift */; };
 		FCEA8A092AA4415D001C4108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8A082AA4415D001C4108 /* Assets.xcassets */; };
 		FCEA8A0C2AA4415D001C4108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA8A0B2AA4415D001C4108 /* Preview Assets.xcassets */; };
+		FCEA8A142AA45AE3001C4108 /* ResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A132AA45AE3001C4108 /* ResponseViewModel.swift */; };
+		FCEA8A172AA45BDA001C4108 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A162AA45BDA001C4108 /* ResponseModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FC233BD82AA8ACC900E5CBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEA89F92AA4415C001C4108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEA8A002AA4415C001C4108;
+			remoteInfo = "Solid Principles";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		28541EDFC0A02673F5D2CE77 /* Pods_Solid_PrinciplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solid_PrinciplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F03AB98FEB0EE226015A140 /* Pods-Solid PrinciplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solid PrinciplesTests.release.xcconfig"; path = "Target Support Files/Pods-Solid PrinciplesTests/Pods-Solid PrinciplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F3E89F201ED7E18829E160E /* Pods-Solid PrinciplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solid PrinciplesTests.debug.xcconfig"; path = "Target Support Files/Pods-Solid PrinciplesTests/Pods-Solid PrinciplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4097488E748495948EA17789 /* Pods_Solid_Principles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solid_Principles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783AB0638BEE7B5C086C48B0 /* Pods-Solid Principles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solid Principles.release.xcconfig"; path = "Target Support Files/Pods-Solid Principles/Pods-Solid Principles.release.xcconfig"; sourceTree = "<group>"; };
+		E7BFE8B7718C846D3CA5A260 /* Pods-Solid Principles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solid Principles.debug.xcconfig"; path = "Target Support Files/Pods-Solid Principles/Pods-Solid Principles.debug.xcconfig"; sourceTree = "<group>"; };
+		FC233BC92AA8331700E5CBF2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FC233BCE2AA8AC9800E5CBF2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FC233BD42AA8ACC900E5CBF2 /* Solid PrinciplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solid PrinciplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC233BD62AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_PrinciplesTests.swift; sourceTree = "<group>"; };
+		FC233BDE2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolidPrinciples.xcdatamodel; sourceTree = "<group>"; };
+		FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		FCEA8A012AA4415C001C4108 /* Solid Principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solid Principles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA8A042AA4415C001C4108 /* Solid_PrinciplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_PrinciplesApp.swift; sourceTree = "<group>"; };
 		FCEA8A062AA4415C001C4108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCEA8A082AA4415D001C4108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEA8A0B2AA4415D001C4108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCEA8A132AA45AE3001C4108 /* ResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewModel.swift; sourceTree = "<group>"; };
+		FCEA8A162AA45BDA001C4108 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FC233BD12AA8ACC900E5CBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623A7ADDE8DB1164058BDB27 /* Pods_Solid_PrinciplesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCEA89FE2AA4415C001C4108 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167E9D3B2F28EA08CF419275 /* Pods_Solid_Principles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3BD1020632392312DC27663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4097488E748495948EA17789 /* Pods_Solid_Principles.framework */,
+				28541EDFC0A02673F5D2CE77 /* Pods_Solid_PrinciplesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE251514850D35DD930EA645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BFE8B7718C846D3CA5A260 /* Pods-Solid Principles.debug.xcconfig */,
+				783AB0638BEE7B5C086C48B0 /* Pods-Solid Principles.release.xcconfig */,
+				3F3E89F201ED7E18829E160E /* Pods-Solid PrinciplesTests.debug.xcconfig */,
+				2F03AB98FEB0EE226015A140 /* Pods-Solid PrinciplesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC233BC82AA8330100E5CBF2 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC233BC92AA8331700E5CBF2 /* NetworkService.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FC233BCD2AA8AC7900E5CBF2 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC233BE02AA8AF6700E5CBF2 /* User+CoreDataClass.swift */,
+				FC233BE12AA8AF6700E5CBF2 /* User+CoreDataProperties.swift */,
+				FC233BE22AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift */,
+				FC233BE32AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift */,
+				FC233BCE2AA8AC9800E5CBF2 /* CoreDataManager.swift */,
+				FC233BDD2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		FC233BD52AA8ACC900E5CBF2 /* Solid PrinciplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC233BD62AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift */,
+			);
+			path = "Solid PrinciplesTests";
+			sourceTree = "<group>";
+		};
 		FCEA89F82AA4415C001C4108 = {
 			isa = PBXGroup;
 			children = (
 				FCEA8A032AA4415C001C4108 /* Solid Principles */,
+				FC233BD52AA8ACC900E5CBF2 /* Solid PrinciplesTests */,
 				FCEA8A022AA4415C001C4108 /* Products */,
+				EE251514850D35DD930EA645 /* Pods */,
+				D3BD1020632392312DC27663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				FCEA8A012AA4415C001C4108 /* Solid Principles.app */,
+				FC233BD42AA8ACC900E5CBF2 /* Solid PrinciplesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +152,10 @@
 		FCEA8A032AA4415C001C4108 /* Solid Principles */ = {
 			isa = PBXGroup;
 			children = (
+				FC233BCD2AA8AC7900E5CBF2 /* DatabaseManager */,
+				FC233BC82AA8330100E5CBF2 /* NetworkManager */,
+				FCEA8A152AA45BC9001C4108 /* Model */,
+				FCEA8A122AA45AD0001C4108 /* ViewModel */,
 				FCEA8A042AA4415C001C4108 /* Solid_PrinciplesApp.swift */,
 				FCEA8A062AA4415C001C4108 /* ContentView.swift */,
 				FCEA8A082AA4415D001C4108 /* Assets.xcassets */,
@@ -67,13 +172,50 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FCEA8A122AA45AD0001C4108 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA8A132AA45AE3001C4108 /* ResponseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCEA8A152AA45BC9001C4108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA8A162AA45BDA001C4108 /* ResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FC233BD32AA8ACC900E5CBF2 /* Solid PrinciplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC233BDA2AA8ACC900E5CBF2 /* Build configuration list for PBXNativeTarget "Solid PrinciplesTests" */;
+			buildPhases = (
+				CD04A354E9AFCD4F4DAEF946 /* [CP] Check Pods Manifest.lock */,
+				FC233BD02AA8ACC900E5CBF2 /* Sources */,
+				FC233BD12AA8ACC900E5CBF2 /* Frameworks */,
+				FC233BD22AA8ACC900E5CBF2 /* Resources */,
+				AF711176ACEB79EA8CE6E437 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC233BD92AA8ACC900E5CBF2 /* PBXTargetDependency */,
+			);
+			name = "Solid PrinciplesTests";
+			productName = "Solid PrinciplesTests";
+			productReference = FC233BD42AA8ACC900E5CBF2 /* Solid PrinciplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FCEA8A002AA4415C001C4108 /* Solid Principles */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEA8A0F2AA4415D001C4108 /* Build configuration list for PBXNativeTarget "Solid Principles" */;
 			buildPhases = (
+				5873EB0E2C57C991F5373D25 /* [CP] Check Pods Manifest.lock */,
 				FCEA89FD2AA4415C001C4108 /* Sources */,
 				FCEA89FE2AA4415C001C4108 /* Frameworks */,
 				FCEA89FF2AA4415C001C4108 /* Resources */,
@@ -97,6 +239,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					FC233BD32AA8ACC900E5CBF2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FCEA8A002AA4415C001C4108;
+					};
 					FCEA8A002AA4415C001C4108 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -116,11 +262,19 @@
 			projectRoot = "";
 			targets = (
 				FCEA8A002AA4415C001C4108 /* Solid Principles */,
+				FC233BD32AA8ACC900E5CBF2 /* Solid PrinciplesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FC233BD22AA8ACC900E5CBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCEA89FF2AA4415C001C4108 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,19 +286,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5873EB0E2C57C991F5373D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solid Principles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF711176ACEB79EA8CE6E437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solid PrinciplesTests/Pods-Solid PrinciplesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solid PrinciplesTests/Pods-Solid PrinciplesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Solid PrinciplesTests/Pods-Solid PrinciplesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD04A354E9AFCD4F4DAEF946 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solid PrinciplesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FC233BD02AA8ACC900E5CBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC233BD72AA8ACC900E5CBF2 /* Solid_PrinciplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCEA89FD2AA4415C001C4108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC233BCF2AA8AC9800E5CBF2 /* CoreDataManager.swift in Sources */,
+				FC233BCA2AA8331700E5CBF2 /* NetworkService.swift in Sources */,
+				FCEA8A142AA45AE3001C4108 /* ResponseViewModel.swift in Sources */,
 				FCEA8A072AA4415C001C4108 /* ContentView.swift in Sources */,
+				FCEA8A172AA45BDA001C4108 /* ResponseModel.swift in Sources */,
+				FC233BE72AA8AF6700E5CBF2 /* Comment+CoreDataProperties.swift in Sources */,
+				FC233BDF2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld in Sources */,
+				FC233BE42AA8AF6700E5CBF2 /* User+CoreDataClass.swift in Sources */,
 				FCEA8A052AA4415C001C4108 /* Solid_PrinciplesApp.swift in Sources */,
+				FC233BE52AA8AF6700E5CBF2 /* User+CoreDataProperties.swift in Sources */,
+				FC233BE62AA8AF6700E5CBF2 /* Comment+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FC233BD92AA8ACC900E5CBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEA8A002AA4415C001C4108 /* Solid Principles */;
+			targetProxy = FC233BD82AA8ACC900E5CBF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		FC233BDB2AA8ACC900E5CBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3E89F201ED7E18829E160E /* Pods-Solid PrinciplesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG82N7RN8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peo.deep.universal.link.Solid-PrinciplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solid Principles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solid Principles";
+			};
+			name = Debug;
+		};
+		FC233BDC2AA8ACC900E5CBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F03AB98FEB0EE226015A140 /* Pods-Solid PrinciplesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG82N7RN8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peo.deep.universal.link.Solid-PrinciplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solid Principles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solid Principles";
+			};
+			name = Release;
+		};
 		FCEA8A0D2AA4415D001C4108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +542,7 @@
 		};
 		FCEA8A102AA4415D001C4108 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BFE8B7718C846D3CA5A260 /* Pods-Solid Principles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +572,7 @@
 		};
 		FCEA8A112AA4415D001C4108 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783AB0638BEE7B5C086C48B0 /* Pods-Solid Principles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +603,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FC233BDA2AA8ACC900E5CBF2 /* Build configuration list for PBXNativeTarget "Solid PrinciplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC233BDB2AA8ACC900E5CBF2 /* Debug */,
+				FC233BDC2AA8ACC900E5CBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FCEA89FC2AA4415C001C4108 /* Build configuration list for PBXProject "Solid Principles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,6 +631,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC233BDD2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC233BDE2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodel */,
+			);
+			currentVersion = FC233BDE2AA8AE8B00E5CBF2 /* SolidPrinciples.xcdatamodel */;
+			path = SolidPrinciples.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FCEA89F92AA4415C001C4108 /* Project object */;
 }
